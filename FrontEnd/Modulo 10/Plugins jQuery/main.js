@@ -52,7 +52,7 @@ invalidHandler: function(evento, validador) {
         const destino = $('#contato');
         const nomeVeiculo = $(this).parent().find('h3').text();
 
-        $('#veiculo-interesse').val(nomeVeiculo);
+        $('#veiculoInteresse').val(nomeVeiculo);
 
         $('html').animate({
             scrollTop: destino.offset().top
